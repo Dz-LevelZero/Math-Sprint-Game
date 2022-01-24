@@ -6,7 +6,7 @@
 
 :root {
   --primary-color: #6415FF;
-  --select-color: #6315ffc9;
+  --select-color: #6315ff7c;
   --success: rgb(15, 158, 2);
   --danger: rgb(214, 23, 23);
 }
@@ -14,7 +14,7 @@
 body {
   margin: 0;
   font-family: PT Mono, sans-serif;
-  /* overflow: hidden; */
+  overflow: hidden;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -177,7 +177,7 @@ label {
   background: var(--select-color);
   position: fixed;
   top: 443px;
-  z-index: -1;
+  /* z-index: -1; */
   width: 529px;
   height: 80px;
 }
